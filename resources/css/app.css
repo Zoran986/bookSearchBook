@@ -1,0 +1,111 @@
+/* Set a max width for the container */
+.container {
+    max-width: 800px;
+    margin-top: 50px;
+}
+
+/* Style the search bar */
+.form-control {
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 0;
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+/* Style the search button */
+.btn-search {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 0;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-search:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Style the book cards */
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+}
+
+/* Style the book details */
+.book-cover {
+    width: 200px;
+    height: 300px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.book-subtitle {
+    font-size: 1.5rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.book-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.book-authors {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.book-publisher {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.book-info {
+    margin-bottom: 2rem;
+}
+
+.book-link {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 0;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.book-link:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
